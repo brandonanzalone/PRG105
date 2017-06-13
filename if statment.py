@@ -1,20 +1,23 @@
 day = int(input('Enter a number between 1 and 7.'))
 
-if day == 1 :
+if day == 1:
     print("Monday")
-elif day == 2:
+if day == 2:
     print("Tuesday")
-elif day == 3:
+if day == 3:
     print("Wednesday")
-elif day == 4:
+if day == 4:
     print("Thursday")
-elif day == 5:
+if day == 5:
     print("Friday")
-elif day == 6:
+if day == 6:
     print("Saturday")
-elif day == 7:
+if day == 7:
     print("Sunday")
-else:
+if day < 1:
     print("Error please enter a number between 1 and 7.")
+if day > 7:
+    print("Error please enter a number between 1 and 7.")
+
 
 
